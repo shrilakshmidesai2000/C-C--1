@@ -1,0 +1,6 @@
+Asset Number : 1
+Asset Name : pen
+Asset Price : 200.00
+Asset Number : 2
+Asset Name : book
+Asset Price : 2000.00
