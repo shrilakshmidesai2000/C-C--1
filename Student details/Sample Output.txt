@@ -1,0 +1,43 @@
+Enter the number of students :
+2
+Enter the Information of student 1
+Enter the student name :
+Shrihari
+Enter the usn of the student :
+124
+Enter the marks of the marks of three subjects :
+100
+99
+97
+Enter the Information of student 2
+Enter the student name :
+Shri
+Enter the usn of the student :
+132
+Enter the marks of the marks of three subjects :
+100
+99
+95
+||||||||||||||||||||||||||||||||||||
+        The student name is : Shrihari
+        The student usn is : 124
+        The student marks for
+        m1 : 100
+        m2 is :99
+        m3 is :97
+        The Total is : 296
+The percentage is :98.6667%
+||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||
+        The student name is : Shri
+        The student usn is : 132
+        The student marks for
+        m1 : 100
+        m2 is :99
+        m3 is :95
+        The Total is : 294
+The percentage is :98%
+||||||||||||||||||||||||||||||||||||
+
+Process returned 0 (0x0)   execution time : 104.741 s
+Press any key to continue.
