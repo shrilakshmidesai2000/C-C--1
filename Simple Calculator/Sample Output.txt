@@ -1,0 +1,9 @@
+Enter the value of a and b :2 3
+Enter the operation to be performed on 2.000 and 3.000 :*
+2.000 * 3.000 is : 6.00
+Enter the operation to be performed on 2.000 and 3.000 :+
+2.000 + 3.000 is : 5.00
+Enter the operation to be performed on 2.000 and 3.000 :/
+2.000 / 3.000 is : 0.67
+Enter the operation to be performed on 2.000 and 3.000 :-
+2.000 - 3.000 is : -1.00
