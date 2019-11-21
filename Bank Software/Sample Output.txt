@@ -1,0 +1,52 @@
+Enter the Account number= 105
+Account number= 105
+Name : Shubham
+Account type=  C
+Balance = 2000.000000
+
+Enter your choice
+1 : Balance Enquiry
+2 : Deposit Amount
+3 : Withdraw Amount
+4 : Exit
+1
+Balance = 2000.000000
+
+Enter your choice
+1 : Balance Enquiry
+2 : Deposit Amount
+3 : Withdraw Amount
+4 : Exit
+
+2
+Enter the amount = 1000
+
+Balance = 3000.000000
+
+Enter your choice
+1 : Balance Enquiry
+2 : Deposit Amount
+3 : Withdraw Amount
+4 : Exit
+3
+Enter the amount = 440
+
+Balance = 2560.000000
+
+Enter your choice
+1 : Balance Enquiry
+2 : Deposit Amount
+3 : Withdraw Amount
+4 : Exit
+1
+Balance = 2560.000000
+
+Enter your choice
+1 : Balance Enquiry
+2 : Deposit Amount
+3 : Withdraw Amount
+4 : Exit
+4
+
+Process returned 0 (0x0)   execution time : 33.454 s
+Press any key to continue.
