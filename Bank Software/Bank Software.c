@@ -10,9 +10,9 @@ struct account{
             {103,"Omkar",'S',14000},
             {104,"Shrihari",'C',9000},
             {105,"Shubham",'C',2000}
-};
-int accin;
-float amount;
+}; //structure defined for account information
+int accin; //index
+float amount; //variable to hold ammount
 
 
 void deposit()
@@ -22,7 +22,7 @@ void deposit()
     printf("\n");
     custmer[accin].bal=custmer[accin].bal+amount;
     balance();
-}
+} //function for deposit money
 
 void withdraw()
 {
@@ -31,13 +31,13 @@ void withdraw()
     printf("\n");
     custmer[accin].bal=custmer[accin].bal-amount;
     balance();
-}
+} //function for withdraw money
 
 void balance()
 {
     printf("Balance = %f\n",custmer[accin].bal);
 }
-
+// function to show balance
 int main()
 {
     int accnum,i,ch;
@@ -50,7 +50,7 @@ int main()
     {
         printf("\nEnter your choice\n1 : Balance Inquiry\n2 : Deposit Amount \n3 : Withdraw Amount\n4 : Exit\n");
         scanf("%d",&ch);
-        switch(ch)
+        switch(ch) //switch case for options selected wrt choice
         {
             case 1:balance();break;
             case 2:deposit();break;
