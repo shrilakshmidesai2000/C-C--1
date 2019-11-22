@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-const float pi=3.14;
+const float pi=3.14; //constant defined for pi
 class area{
     float ar1,ar2,ar3;
 public :
@@ -22,11 +22,11 @@ public :
         cout<<"Area of rectangle  : "<<ar3<<endl;
         cout<<"Area of triangle  : "<<ar2<<endl;
     }
-};
+}; //class area defined with fuction are with different number of arguments
 int main()
 {
     float lr,br,c,b,r;
-    area a;
+    area a; //object instantiated of class area
     cout<<"Enter the radius : "<<endl;
     cin>>r;
     cout<<"Enter the length and breadth :"<<endl;
@@ -36,5 +36,5 @@ int main()
     a.are(r);
     a.are(0.5,c,b);
     a.are(lr,br);
-    a.display();
+    a.display(); //displaying answer
 }
