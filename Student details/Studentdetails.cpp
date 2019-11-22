@@ -34,16 +34,16 @@ public :
         cout<<"\tThe Total is : "<<total<<endl<<"The percentage is :"<<percentage<<"%"<<endl;
         cout<<"||||||||||||||||||||||||||||||||||||\n";
     }
-};
+}; //class studentinfo defined to getinfo and calculate total and showdata
 int main()
 {
     int i,n;
     cout<<"Enter the number of students :"<<endl;
     cin>>n;
-    studentinfo s[n];
+    studentinfo s[n]; //array of objects of class student
     for(i=0;i<n;i++)
     {
-        s[i].calculate();
-        s[i].showdata();
+        s[i].calculate(); //call calculate()
+        s[i].showdata(); //call showdata()
     }
 }
