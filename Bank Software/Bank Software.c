@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+#define N 5
 struct account{
     long int accno;
     char name[20];
@@ -29,6 +29,11 @@ void withdraw()
     printf("Enter the amount = ");
     scanf("%f",&amount);
     printf("\n");
+    if(amount>custmer[accin].bal)
+    {
+        printf("Amount excceds balance\n");
+        return;
+    }
     custmer[accin].bal=custmer[accin].bal-amount;
     balance();
 } //function for withdraw money
@@ -40,10 +45,24 @@ void balance()
 // function to show balance
 int main()
 {
-    int accnum,i,ch;
+    int accnum,i,ch,f=0;
+    start :
     printf("Enter the Account number= ");
     scanf("%d",&accnum);
-    accin=(accnum%100)-1;
+    for(i=0;i<N;i++)//check for existance of the account
+    {
+        if(accnum==custmer[i].accno)
+        {
+            accin=i;
+            f=1;
+            break;
+        }
+    }
+    if(f==0)
+    {
+        printf("\nInvalid Account number  \n");
+        goto start;
+    }
 
     printf("Account number= %d\nName : %s\nAccount type=  %c\nBalance = %f\n",custmer[accin].accno,custmer[accin].name,custmer[accin].type,custmer[accin].bal);
       while(1)
