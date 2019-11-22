@@ -1,0 +1,135 @@
+*********SHOPING CART*********
+
+Item code       Quantity        Price
+1               10              100
+2               12              200
+3               14              150
+4               21              250
+
+Please enter your choice:
+
+ 1: add item
+ 2:delete item
+ 3:display info
+ 4:leave cart:
+1
+
+Enter the code and quantity of the item to be added to your cart:1
+5
+
+ the item with code1 is added to the cart
+
+ item code       quantity       cost
+1               5               500.00
+ there are 1 items in your cart...
+
+
+
+Item code       Quantity        Price
+1               5               100
+2               12              200
+3               14              150
+4               21              250
+
+Please enter your choice:
+
+ 1: add item
+ 2:delete item
+ 3:display info
+ 4:leave cart:
+1
+
+Enter the code and quantity of the item to be added to your cart:3
+4
+
+ the item with code3 is added to the cart
+
+ item code       quantity       cost
+3               4               600.00
+ there are 2 items in your cart...
+
+
+
+Item code       Quantity        Price
+1               5               100
+2               12              200
+3               10              150
+4               21              250
+
+Please enter your choice:
+
+ 1: add item
+ 2:delete item
+ 3:display info
+ 4:leave cart:
+3
+
+ there are 2 items in your cart...
+
+
+ item code      quantity        amount
+
+1               5               500.00
+3               4               600.00
+
+
+                        Grand total is:1100.00
+
+
+Item code       Quantity        Price
+1               5               100
+2               12              200
+3               10              150
+4               21              250
+
+Please enter your choice:
+
+ 1: add item
+ 2:delete item
+ 3:display info
+ 4:leave cart:
+2
+
+ last item from your cart deleted
+
+ there are 1 items in your cart...
+
+
+
+Item code       Quantity        Price
+1               5               100
+2               12              200
+3               14              150
+4               21              250
+
+Please enter your choice:
+
+ 1: add item
+ 2:delete item
+ 3:display info
+ 4:leave cart:
+3
+
+ there are 1 items in your cart...
+
+
+ item code      quantity        amount
+
+1               5               500.00
+
+
+                        Grand total is:500.00
+
+
+Item code       Quantity        Price
+1               5               100
+2               12              200
+3               14              150
+4               21              250
+
+Please enter your choice:
+
+ 1: add item
+ 2:delete item
+ 3:display info
+ 4:leave cart:
