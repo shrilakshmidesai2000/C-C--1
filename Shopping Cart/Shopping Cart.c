@@ -13,13 +13,7 @@ int main()
     void (*ptr3)(int c1[mrow][mcol],int c2[mrow][mcol],int *z);
     printf("Enter the number of items in stock");
     scanf("%d",&n);
-    int c1[mrow][mcol],c2[mrow][mcol]={0};
-    printf("Enter the elements in the stock\n"); //Ask for stock elements
-    for(s=0;s<n;s++)
-    {
-        printf("Item no.\tQuantity\tPrice\n");
-        scanf("%d %d %d",&c1[s][0],&c1[s][1],&c1[s][2]);
-    }
+    int c1[mrow][mcol]={{1,10,100},{2,20,200},{3,30,300}};,c2[mrow][mcol]={0};
     printf("The items in stock are :\n");
     printf("Item no.\tQuantity\tPrice\n");
     for(i=0;i<n;i++)
