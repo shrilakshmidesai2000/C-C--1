@@ -28,7 +28,7 @@ public :
         cout<<"\n No. of employees : "<<n<<endl;
         cout<<"\n Bonus : "<<bonus<<endl;
     }
-};
+}; //class manager defined as base class
 class prodman : public Manager{
     int noOfsup;
 public :
@@ -38,7 +38,7 @@ public :
         cout<<"\nNo. of supervisors : "<<noOfsup<<endl;
         display(noOfsup);
     }
-};
+}; //class prodman defined as derived class
 class salesman : public Manager{
     int noOfsalesmen;
 public :
@@ -48,11 +48,11 @@ public :
         cout<<"\nNo. of salesmen : "<<noOfsalesmen<<endl;
         display(noOfsalesmen);
     }
-};
+}; //class salesman defined as derived class
 int main()
 {
-    prodman p;
-    salesman s;
+    prodman p; //object of prodman
+    salesman s; //object of salesman
     p.getdata();
     s.getdata();
     p.setbonus(5000);
